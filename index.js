@@ -22,7 +22,11 @@ console.log(arrObj.b);
 console.log(arrObj);
 console.log(b);
 //const obj = { a: 1, b: 2 };
-const obj = {
+const objMain = {
     'Anna': 500,
     'Alice': 800
 };
+
+objMain['alo'] = 123;
+
+console.log(objMain);
